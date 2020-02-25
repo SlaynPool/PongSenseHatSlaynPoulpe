@@ -1,0 +1,43 @@
+Solution choisi (Bluetooth, Python)
+→ Raspberry équipé
+→ Pas de câblage nécessaire
+→ Rapide
+→ Léger 
+→Utilisable via python (commande du sense HAT) 
+
+
+# PongSenseHatSlaynPoulpe
+sudo apt install vim python3-pip libbluetooth-dev
+sudo pip3 install PyBluez
+
+1)Appareillage 
+2)Envoie de donnée 
+3)Envoie de commande
+ 
+PK ça marche pas? 
+On sait pas…. ducoup on se rabat sur un lien tcp/ip classique via réseau (client/ serveur) 
+
+le code c’est 9 
+utilisation d’une ip, un port par socket envoie de commande, le tout sur python 
+
+phase 1: allumer une LED et pouvoir déplacer la lumière sur la matrice
+phase 2: utiliser le Joystick de l’un pour commander le déplacement de la lumière sur la matrice de LED de l’autre
+phase 3: rendre cette utilisation bi-directionnel 
+
+
+Lien:
+https://www.raspberrypi.org/documentation/
+| https://www.raspberrypi.org/documentation/remote-access/
+| https://www.raspberrypi.org/documentation/hardware/
+| https://www.raspberrypi.org/documentation/hardware/sense-hat/README.md
+| https://www.raspberrypi.org/documentation/hardware/sense-hat/images/Sense-HAT-V1_0.pdf
+
+https://github.com/raspberrypi/hats/blob/master/README.md
+
+https://fr.pinout.xyz/pinout/sense_hat#
+https://fr.wikipedia.org/wiki/I2C#Couche_liaison_de_donn%C3%A9es
+http://blog.kevindoran.co/bluetooth-programming-with-python-3/
+https://fr.wikipedia.org/wiki/Bluetooth
+http://sntflandres.free.fr/?page_id=1901
+https://buildmedia.readthedocs.org/media/pdf/bluezero/0.0.4/bluezero.pdf
+
